@@ -49,11 +49,32 @@ img {
 h1 {
   font-size: 20px;
   font-weight: 700;
+
 }
 h2{
     color: var(--Green);
     margin-bottom: 10px;
+    font-size: 14px;
 }
 p{
-    margin-bottom: 10px;
+    margin-top: 1.5rem;
+}
+
+.buttons{
+    margin-top: 2rem;
+}
+
+.btn{
+   
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--Grey);
+    font-weight: 800;
+}
+
+.btn:hover{
+    cursor: pointer ;
+    background-color: var(--Green);
+    color: var(--OffBlack);
 }
